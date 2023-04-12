@@ -1,0 +1,275 @@
+:root {
+    --cmain: rgb(6, 57, 108)
+}
+.cmain{
+    background-color:rgb(6, 57, 108) ;
+}
+.fontTitolo {
+    font-family: 'Electrolize', sans-serif;
+}
+.txtmain{
+    color:rgb(6, 57, 108) ;
+}
+
+.fondMain {
+    font-family: 'Lato', sans-serif;
+}
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+.fotoSopra{
+    height: 85vh;
+}
+
+.testata {
+
+    background-image: radial-gradient(rgba(6, 57, 108, 0.6), rgba(6, 57, 108, 0.6)), url(./media/header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.titolone {
+    color: white;
+    font-size: 100px;
+}
+
+.barra {
+    background-color: rgb(6, 57, 108);
+    height: 86px;
+
+}
+
+.rotelle {
+    height: 40;
+    width: 100px;
+}
+
+.quote{
+    position: relative;
+}
+.quote::after{
+    content: "“";
+    font-size: 100px;
+    color: rgb(6, 57, 108);
+    position: absolute;
+    right: 28vw;
+    top: -6vh;
+}
+.quoteDue{
+position: relative;
+}
+.quoteDue::after{
+    content: "“";
+    font-size: 100px;
+    color: rgb(6, 57, 108);
+    position: absolute;
+    right: 28vw;
+    top: -6vh;
+}
+.quoteTre{
+    position: relative;
+}
+.quoteTre::after{
+    content: "“";
+    font-size: 100px;
+    color: rgb(6, 57, 108);
+    position: absolute;
+    right: 28vw;
+    top: -6vh;
+}
+.acca4{
+    font-weight: bold;
+    color: rgb(6, 57, 108);
+    font-size: 25px;
+    margin-right: 200px;
+}
+.img2{
+    background-image:radial-gradient(rgba(6, 57, 108, 0.5), rgba(6, 57, 108, 0.5)), url(./media/power-plant-4712830_1280.jpg );
+    /* height: 35vmax; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.noveUno{
+font-size: 100px;
+}
+@media only screen and (min-width: 1281px){
+.spostaColonna{
+left: 65px;
+bottom:120px;
+}
+.quadrato{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(6, 57, 108);
+    position: relative;
+    left: 200px;
+    bottom: 60px;
+}
+.titoloDue{
+    font-size: 70px;
+}
+}
+.bottoneGet{
+    background-color: var(--cmain);
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-size: 20px;
+}
+.carta{
+    height: 180px;
+    width: 65%;
+    background-image: url(./media/las-vegas-gaea5569ca_640.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.carta::after{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(6,57,108,0.5) 0%, rgba(6,57,108,0) 55%);
+    position: absolute;
+    content: "";
+    right: 20px;
+    bottom: 20px;
+}
+
+.carta2{
+    height: 180px;
+    width: 65%;
+    background-image: url(./media/ama-dablam-gd31658aca_640.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+
+.carta2::after{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(6,57,108,0.5) 0%, rgba(6,57,108,0) 55%);
+    position: absolute;
+    content: "";
+    right: 20px;
+    bottom: 20px;
+}
+.carta3{
+    height: 180px;
+    width: 65%;
+    background-image: url(./media/transamerica-pyramid-g85cefcd4c_640.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative; 
+}
+.carta3::after{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(6,57,108,0.5) 0%, rgba(6,57,108,0) 55%);
+    position: absolute;
+    content: "";
+    right: 20px;
+    bottom: 20px;
+}
+.carta4{
+    height: 180px;
+    width: 65%;
+    background-image: url(./media/landscape-g975ba8c2a_640.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;  
+}
+.carta4::after{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(6,57,108,0.5) 0%, rgba(6,57,108,0) 55%);
+    position: absolute;
+    content: "";
+    right: 20px;
+    bottom: 20px; 
+}
+.someStuff{
+    height: 40vh;
+}
+.pippo{
+    bottom: 70px
+}
+.wind1{
+    height: 170px;
+    width: 70%;
+    background-image:radial-gradient(rgba(6, 57, 108, 0.5), rgba(6, 57, 108, 0.5)), url(./media/sun.png);
+    background-position: center;
+    background-size: cover;
+}
+.wind2{
+    height: 170px;
+    width: 70%;
+    background-image:radial-gradient(rgba(6, 57, 108, 0.5), rgba(6, 57, 108, 0.5)), url(./media/wind.png);
+    background-position: center;
+    background-size: cover; 
+}
+.wind3{
+    height: 170px;
+    width: 70%;
+    background-image:radial-gradient(rgba(6, 57, 108, 0.5), rgba(6, 57, 108, 0.5)), url(./media/wave.png);
+    background-position: center;
+    background-size: cover;   
+}
+.wind4{
+    height: 170px;
+    width: 70%;
+    background-image:radial-gradient(rgba(6, 57, 108, 0.5), rgba(6, 57, 108, 0.5)), url(./media/gas.png);
+    background-position: center;
+    background-size: cover;
+}
+.wind5{
+    height: 170px;
+    width: 70%;
+    background-image:radial-gradient(rgba(6, 57, 108, 0.5), rgba(6, 57, 108, 0.5)), url(./media/oil.png);
+    background-position: center;
+    background-size: cover;
+}
+.wind6{
+    height: 170px;
+    width: 70%;
+    background-image:radial-gradient(rgba(6, 57, 108, 0.5), rgba(6, 57, 108, 0.5)), url(./media/nuclear.png);
+    background-position: center;
+    background-size: cover;
+}
+.ombreggiatura{
+box-shadow: 7px 7px 18px 1px #000000; 
+box-shadow: 7px 7px 18px 1px #000000;
+height: 200px;
+width: 400px;
+}
+.bar1{
+    border-bottom: 10px solid rgb(6, 57, 108) ;
+    width: 30%;
+}
+.bar2{
+    border-bottom: 10px solid rgb(6, 57, 108) ;
+    width: 40%;
+}
+.bar3{
+    border-bottom: 10px solid rgb(6, 57, 108) ;
+    width: 60%;
+}
+.bar4{
+    border-bottom: 10px solid rgb(6, 57, 108) ;
+    width: 80%;
+}
+.bar5{
+    border-bottom: 10px solid rgb(6, 57, 108) ;
+    width: 70%;
+}
+.bob{
+    height: 80vh;
+}
+.sotto{
+    height: 50vh;
+    background-color: black;
+}
